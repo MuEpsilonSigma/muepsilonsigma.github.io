@@ -1,123 +1,20 @@
 ---
 layout: default
 ---
+# About us
 
-Text can be **bold**, _italic_, or ~~strikethrough~~.
-
-[Link to another page](./another-page.html).
-
-There should be whitespace between paragraphs.
-
-There should be whitespace between paragraphs. We recommend including a README, or a file with information about your project.
-
-# Header 1
-
-> This is a normal paragraph following a header. GitHub is a code hosting platform for version control and collaboration. It lets you and others work together on projects from anywhere.
-
-## Header 2
-
-> This is a blockquote following a header.
->
-> When something is important enough, you do it even if the odds are not in your favor.
-
-### Header 3
-
-```js
-// Javascript code with syntax highlighting.
-var fun = function lang(l) {
-  dateformat.i18n = require('./lang/' + l)
-  return true;
-}
-```
-
-```ruby
-# Ruby code with syntax highlighting
-GitHubPages::Dependencies.gems.each do |gem, version|
-  s.add_dependency(gem, "= #{version}")
-end
-```
-
-#### Header 4
-
-*   This is an unordered list following a header.
-*   This is an unordered list following a header.
-*   This is an unordered list following a header.
-
-##### Header 5
-
-1.  This is an ordered list following a header.
-2.  This is an ordered list following a header.
-3.  This is an ordered list following a header.
-
-###### Header 6
-
-| head1        | head two          | three |
-|:-------------|:------------------|:------|
-| ok           | good swedish fish | nice  |
-| out of stock | good and plenty   | nice  |
-| ok           | good `oreos`      | hmm   |
-| ok           | good `zoute` drop | yumm  |
-
-### There's a horizontal rule below this.
+The ΜΕΣ community is a vibrant collective of PhD students in the United States who specialize in thermoscience and energy conversion, following their graduation from the esteemed ΜΕΣ Laboratory (MESL). United by their passion for advancing the frontiers of thermal sciences and sustainable energy technologies, these scholars bring a strong foundation in research and innovation, honed during their time at MESL. Their work spans critical areas such as heat transfer, fluid dynamics, and energy systems, contributing to the global effort to develop efficient and sustainable solutions for energy challenges. The ΜΕΣ community embodies a commitment to academic excellence and collaborative research, driving progress in the fields of thermoscience and energy conversion.
 
 * * *
 
-### Here is an unordered list:
+# Events
+## Upcoming events
+[2024 Thanksgiving 2nd Annual Meeting](./2nd-Annual-Meeting)
 
-*   Item foo
-*   Item bar
-*   Item baz
-*   Item zip
+## Previous events
+[2023 Thanksgiving 1st Annual Meeting](./1st-Annual-Meeting)
 
-### And an ordered list:
+* * *
 
-1.  Item one
-1.  Item two
-1.  Item three
-1.  Item four
+# Contacts
 
-### And a nested list:
-
-- level 1 item
-  - level 2 item
-  - level 2 item
-    - level 3 item
-    - level 3 item
-- level 1 item
-  - level 2 item
-  - level 2 item
-  - level 2 item
-- level 1 item
-  - level 2 item
-  - level 2 item
-- level 1 item
-
-### Small image
-
-![Octocat](https://github.githubassets.com/images/icons/emoji/octocat.png)
-
-### Large image
-
-![Branching](https://guides.github.com/activities/hello-world/branching.png)
-
-
-### Definition lists can be used with HTML syntax.
-
-<dl>
-<dt>Name</dt>
-<dd>Godzilla</dd>
-<dt>Born</dt>
-<dd>1952</dd>
-<dt>Birthplace</dt>
-<dd>Japan</dd>
-<dt>Color</dt>
-<dd>Green</dd>
-</dl>
-
-```
-Long, single-line code blocks should not wrap. They should horizontally scroll if they are too long. This line should be long enough to demonstrate this.
-```
-
-```
-The final element.
-```
