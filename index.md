@@ -19,4 +19,4 @@ The ΜΕΣ community is a vibrant collective of PhD students in the United State
 *  [2023 Thanksgiving 1st Annual Meeting](./1st-Annual-Meeting)
 
 # Contacts
-
+e-mail: muepsig@gmail.com
