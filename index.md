@@ -9,7 +9,7 @@ The ΜΕΣ community is a vibrant collective of PhD students in the United State
 
 
 # Members
-*  [List of the members](./List-of-the-members)
+*  [List of Members](./List-of-Members)
 
 # Events
 ## Upcoming events
