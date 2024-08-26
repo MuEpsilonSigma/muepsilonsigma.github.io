@@ -7,12 +7,16 @@ The ΜΕΣ community is a vibrant collective of PhD students in the United State
 
 * * *
 
+
+# Members
+*  [List of the members](./List-of-the-members)
+
 # Events
 ## Upcoming events
-[2024 Thanksgiving 2nd Annual Meeting](./2nd-Annual-Meeting)
+*  [2024 Thanksgiving 2nd Annual Meeting](./2nd-Annual-Meeting)
 
 ## Previous events
-[2023 Thanksgiving 1st Annual Meeting](./1st-Annual-Meeting)
+*  [2023 Thanksgiving 1st Annual Meeting](./1st-Annual-Meeting)
 
 # Contacts
 
