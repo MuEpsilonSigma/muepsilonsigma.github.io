@@ -3,7 +3,7 @@ layout: default
 ---
 
 # Members
-### Jeonga Lee (이정아)
+### JeongA Lee (이정아)
 
 ### Jiyoung Kim (김지영)
 
