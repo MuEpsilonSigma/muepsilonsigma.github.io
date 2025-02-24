@@ -7,6 +7,9 @@ layout: default
 Nov. 28 - 30, 2024
 
 ## Venue
-Near Prof. Hong's place, Washington, D.C.
+Prof. Hong's place, Washington, D.C.
+
+## Photos
+![2nd_Annual_Meeting_1](photos/2nd_Annual_Meeting_1.jpg)
 
 [back to main](./)
