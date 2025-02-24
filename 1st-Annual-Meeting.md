@@ -11,6 +11,5 @@ China town, Chicago, IL
 
 ## Photos
 ![1st_Annual_Meeting_1](photos/1st_Annual_Meeting_1.jpg)
-![1st_Annual_Meeting_2](photos/1st_Annual_Meeting_2.jpg)
 
 [back to main](./)
