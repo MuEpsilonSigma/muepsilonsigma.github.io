@@ -21,4 +21,6 @@ layout: default
 
 ### Jiyong Harrison Lee (이지용)
 
+### Janghyun Lim (임장현)
+
 [back to main](./)
