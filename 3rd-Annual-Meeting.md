@@ -7,6 +7,6 @@ layout: default
 TBD
 
 ## Venue
-TBD
+Austin, TX
 
 [back to main](./)
