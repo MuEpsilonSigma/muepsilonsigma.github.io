@@ -3,7 +3,7 @@ layout: default
 ---
 # About us
 
-The ΜΕΣ community is a vibrant collective of PhD students in the United States who specialize in thermoscience and energy conversion, following their graduation from the esteemed ΜΕS Laboratory (MESL). United by their passion for advancing the frontiers of thermal sciences and sustainable energy technologies, these scholars bring a strong foundation in research and innovation, honed during their time at MESL. Their work spans critical areas such as heat transfer, fluid dynamics, and energy systems, contributing to the global effort to develop efficient and sustainable solutions for energy challenges. The ΜΕΣ community embodies a commitment to academic excellence and collaborative research, driving progress in the fields of thermoscience and energy conversion.
+The ΜΕΣ community is a vibrant collective of PhD students in the United States who specialize in thermal & materials engineering, following their graduation from the esteemed Μultiphysics Εnergy System Laboratory (MESL) at Yonsei University, South Korea. United by their passion for advancing the frontiers of their research, these scholars bring a strong foundation in innovation, honed during their time at MESL. Their work spans critical areas such as heat transfer, continuum mechanics, and energy systems, contributing to the global effort to develop efficient and sustainable solutions for energy challenges. The ΜΕΣ community embodies a commitment to academic excellence, driving progress with active communication among the members spread around the US.
 
 
 # Members
