@@ -4,7 +4,9 @@ layout: default
 
 # Members
 #### JeongA Lee (이정아)
+![Jenna.jpg](photos/Jenna.jpg)
 
+> JeongA (Jenna) is a PhD candidate in Mechanical Science and Engineering at the University of Illinois Urbana-Champaign, advised by Prof. Kyle Smith. Her research focuses on carbon dioxide removal (CDR) and electrochemical system optimization. She develops physicochemical models of electrochemical pH-swing direct air capture (DAC) systems, integrating reaction kinetics, thermodynamics, and system-level parameters. Through computational modeling, she analyzes performance trade-offs and identifies strategies for energy-efficient DAC design. She has strong skills in MATLAB-based modeling, numerical simulation, and translating complex model outputs into actionable engineering insights.
 
 #### Jiyoung Kim (김지영)
 ![Jiyoung.jpg](photos/Jiyoung.jpg)
@@ -15,7 +17,7 @@ layout: default
 #### Taewoo Kim (김태우)
 ![Taewoo.jpg](photos/Taewoo.jpg)
 
->Taewoo is a PhD student in Mechanical Science and Engineering at the University of Illinois Urbana-Champaign. His research explores the fundamental mechanisms of diamond particle growth, focusing on how different hydrocarbon precursors and doping elements influence the growth process under flat flame combustion. By combining experimental work with reaction simulations, Taewoo aims to develop a deeper understanding of material synthesis pathways that can lead to enhanced control over diamond film properties.
+>Taewoo is a PhD candidate in Mechanical Science and Engineering at the University of Illinois Urbana-Champaign. His research explores the fundamental mechanisms of diamond particle growth, focusing on how different hydrocarbon precursors and doping elements influence the growth process under flat flame combustion. By combining experimental work with reaction simulations, Taewoo aims to develop a deeper understanding of material synthesis pathways that can lead to enhanced control over diamond film properties.
 
 
 #### Jihong Min (민지홍)
@@ -34,7 +36,9 @@ layout: default
 
 
 #### Dongyoung Yoon (윤동영)
+![Dongyoung.jpg](photos/Dongyoung.jpg)
 
+>Dongyoung Yoon is a PhD candidate in Mechanical Science and Engineering at the University of Illinois Urbana-Champaign. His current research delves into the fascinating physics of two-dimensional heterostructures, specifically focusing on the novel phenomena emerging from strain-induced effects and the intriguing behavior of sliding ferroelectric materials.
 
 #### Inseo Woo (우인서)
 
