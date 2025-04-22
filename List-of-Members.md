@@ -6,7 +6,7 @@ layout: default
 #### JeongA Lee (이정아)
 ![Jenna.jpg](photos/Jenna.jpg)
 
-> JeongA (Jenna) is a PhD candidate in Mechanical Science and Engineering at the University of Illinois Urbana-Champaign, advised by Prof. Kyle Smith. Her research focuses on carbon dioxide removal (CDR) and electrochemical system optimization. She develops physicochemical models of electrochemical pH-swing direct air capture (DAC) systems, integrating reaction kinetics, thermodynamics, and system-level parameters. Through computational modeling, she analyzes performance trade-offs and identifies strategies for energy-efficient DAC design. She has strong skills in MATLAB-based modeling, numerical simulation, and translating complex model outputs into actionable engineering insights.
+>JeongA (Jenna) is a PhD candidate in Mechanical Science and Engineering at the University of Illinois Urbana-Champaign, advised by Prof. Kyle Smith. Her research focuses on carbon dioxide removal (CDR) and electrochemical system optimization. She develops physicochemical models of electrochemical pH-swing direct air capture (DAC) systems, integrating reaction kinetics, thermodynamics, and system-level parameters. Through computational modeling, she analyzes performance trade-offs and identifies strategies for energy-efficient DAC design. She has strong skills in MATLAB-based modeling, numerical simulation, and translating complex model outputs into actionable engineering insights.
 
 #### Jiyoung Kim (김지영)
 ![Jiyoung.jpg](photos/Jiyoung.jpg)
@@ -32,7 +32,7 @@ layout: default
 #### Young Joon Park (박영준)
 ![Joon.jpg](photos/Joon.jpg)
 
->Young Joon (Joon, in short) is a PhD student in Mechanical Science and Engineering at the University of Illinois Urbana-Champaign. His research focuses on developing novel methodologies to monitor and control energy systems, particularly in application to air conditioning & refrigeration cycles and fuel cell systems. His current project focuses on the development of a capacitive sensor array for measuring water droplets and frost sizes under condensation and frosting heat transfer.
+>Young Joon (Joon, in short) is a PhD candidate in Mechanical Science and Engineering at the University of Illinois Urbana-Champaign. His research focuses on developing novel methodologies to monitor and control energy systems, particularly in application to air conditioning & refrigeration cycles and fuel cell systems. His current project focuses on the development of a capacitive sensor array for measuring water droplets and frost sizes under condensation and frosting heat transfer.
 
 
 #### Dongyoung Yoon (윤동영)
