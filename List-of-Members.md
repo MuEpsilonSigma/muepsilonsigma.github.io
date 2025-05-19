@@ -23,7 +23,7 @@ layout: default
 #### Jihong Min (민지홍)
 
 
-#### Gyubin Luke Min (민규빈)
+#### Luke Gyubin Min (민규빈)
 ![Gyubin.jpg](photos/Gyubin.jpg)
 
 >Luke is a PhD student in Mechanical Engineering at Stanford University, advised by Prof. Kenneth E. Goodson and Adjunct Prof. Mehdi Asheghi at the Nanoheat Lab. His research focuses on advanced thermal management solutions for next-generation electronic systems, covering nanoscale heat dissipation in ultra-thin films and 3D packaging as well as macroscale cooling strategies for end-user devices and data centers.
@@ -41,10 +41,14 @@ layout: default
 >Dongyoung Yoon is a PhD candidate in Mechanical Science and Engineering at the University of Illinois Urbana-Champaign. His current research delves into the fascinating physics of two-dimensional heterostructures, specifically focusing on the novel phenomena emerging from strain-induced effects and the intriguing behavior of sliding ferroelectric materials.
 
 #### Inseo Woo (우인서)
+![Inseo.jpg](photos/Inseo.jpg)
 
+>Inseo is a PhD student in Materials Science and Engineering at the University of Illinois Urbana-Champaign. Her research focuses on the mechanical behavior of metallic materials in extreme environments and energy applications. She specializes in experimental characterization techniques for quantitative, statistical analysis of deformation processes, such as digital image correlation and electron microscopy. Using these techniques, she aims to investigate plasticity development driven by hydrogen embrittlement, ultimately to accelerate the design of hydrogen storage materials.
 
 #### Jiyong Harrison Lee (이지용)
+![Jiyong.jpg](photos/Jiyong.jpg)
 
+>Jiyong Lee is a PhD student in Chemical Engineering at the University of Texas at Austin. Under the guidance of Prof. Ilias Mitrai, Jiyong’s research focuses on developing a framework and algorithms of explainable optimization via artificial intelligence techniques such as explainable AI and graph neural networks. In this approach, he aims to understand and provide explainable solutions of the optimal decision-making process that arises in energy systems, supply chains, and chemical manufacturing.
 
 #### Janghyun Lim (임장현)
 
