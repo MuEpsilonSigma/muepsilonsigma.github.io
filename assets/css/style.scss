@@ -5,16 +5,7 @@
 
 /* tighten the black header band */
 .page-header {
-  padding-block: 1.25rem;     /* top & bottom padding (was much larger) */
-}
-
-/* trim extra space inside */
-.page-header .project-name { margin: 0; }
-.page-header .project-tagline { margin: .25rem 0 0; }
-
-/* keep it comfortable on small screens */
-@media (max-width: 600px) {
-  .page-header { padding-block: 1rem; }
+  padding-block: 0.5rem;     /* top & bottom padding (was much larger) */
 }
 
 /* Make the title look like text but clickable */
