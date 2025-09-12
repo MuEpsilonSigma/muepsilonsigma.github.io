@@ -4,6 +4,9 @@
 @import "{{ site.theme }}";
 
 /* Make the title look like text but clickable */
+.project-title-link{
+  color: white;
+}
 .project-title-link:hover,
 .project-title-link:focus {
   text-decoration: underline;
