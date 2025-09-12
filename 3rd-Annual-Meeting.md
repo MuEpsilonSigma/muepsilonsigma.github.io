@@ -8,5 +8,3 @@ TBD
 
 ## Venue
 Austin, TX
-
-[back to main](./)
