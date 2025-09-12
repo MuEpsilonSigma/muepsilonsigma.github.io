@@ -52,5 +52,3 @@ layout: default
 
 #### Janghyun Lim (임장현)
 
-
-[back to main](./)
