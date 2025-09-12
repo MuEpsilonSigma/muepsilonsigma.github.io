@@ -4,8 +4,9 @@
 @import "{{ site.theme }}";
 
 /* tighten the black header band */
-.page-header {
-  padding-block: 0.5rem;     /* top & bottom padding (was much larger) */
+#header_wrap .inner {
+  /* top right bottom left */
+  padding: 16px 10px 12px 10px;   /* was 50px 10px 30px 10px */
 }
 
 /* Make the title look like text but clickable */
