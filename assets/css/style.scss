@@ -3,6 +3,17 @@
 
 @import "{{ site.theme }}";
 
+/* Make the title look like text but clickable */
+.site-title-link {
+  color: inherit;
+  text-decoration: none;
+}
+.site-title-link:hover,
+.site-title-link:focus {
+  text-decoration: underline;
+  text-underline-offset: 2px;
+}
+
 /* base tabs look (neutral) */
 .tabs { margin: 1rem 0; border-bottom: 1px solid #ddd; }
 .tabs ul { list-style: none; margin: 0; padding: 0; display: flex; gap: .75rem; flex-wrap: wrap; }
