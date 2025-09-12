@@ -11,7 +11,8 @@ tabs:
 
 # Young Joon (Joon) Park
 <div style="text-align: center;">
-  <img src="photos/Joon.jpg" alt="Joon" />
+  <img src="../../photos/Joon.jpg" alt="Joon" />
 </div>
+
 ## Education
 *  
