@@ -11,5 +11,3 @@ Prof. Hong's place, Washington, D.C.
 
 ## Photos
 ![2nd_Annual_Meeting_1](photos/2nd_Annual_Meeting_1.jpg)
-
-[back to main](./)
