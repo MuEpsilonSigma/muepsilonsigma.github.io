@@ -3,6 +3,22 @@
 
 @import "{{ site.theme }}";
 
+/* Make the site title look exactly like the original H1 and not a blue link */
+.page-header .project-name > .site-title-link {
+  font: inherit;              /* inherits size/weight/family from .project-name */
+  line-height: inherit;
+  color: inherit;             /* use the H1 color (white in Slate header) */
+  text-decoration: none;      /* no underline by default */
+  display: inline-block;      /* safer box for hover/focus */
+}
+
+.page-header .project-name > .site-title-link:visited,
+.page-header .project-name > .site-title-link:hover,
+.page-header .project-name > .site-title-link:focus {
+  color: inherit;             /* keep the same color on all states */
+  text-decoration: none;      /* no underline on hover/focus */
+}
+
 /* Make the title look like text but clickable */
 .site-title-link {
   color: inherit;
