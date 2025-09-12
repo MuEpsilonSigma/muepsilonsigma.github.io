@@ -13,6 +13,9 @@
 #main_content_wrap .inner {        /* Slate's content container */
   padding-top: 8px;                /* was ~20px in the theme */
 }
+#project_title {
+  text-shadow: 0;
+}
 
 /* Make the title look like text but clickable */
 .project-title-link{
