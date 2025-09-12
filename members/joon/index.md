@@ -11,6 +11,3 @@ tabs:
 
 # Young Joon (Joon) Park
 
-
-
-[back to main](../../)
