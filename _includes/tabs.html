@@ -1,0 +1,11 @@
+<nav class="tabs">
+  <ul>
+    {% assign items = include.items | default: page.tabs %}
+    {% for item in items %}
+      {% assign active = (page.url == item.url) or (page.permalink == item.url) %}
+      <li class="{% if active %}active{% endif %}">
+        <a href="{{ item.url | relative_url }}">{{ item.title }}</a>
+      </li>
+    {% endfor %}
+  </ul>
+</nav>
