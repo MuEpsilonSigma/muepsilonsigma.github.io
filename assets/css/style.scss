@@ -20,7 +20,7 @@
 }
 
 /* base tabs look (neutral) */
-.tabs { margin: 0.5rem 0; border-bottom: 1px solid #ddd; }
+.tabs { margin: 0; border-bottom: 1px solid #ddd; }
 .tabs ul { list-style: none; margin: 0; padding: 0; display: flex; gap: .75rem; flex-wrap: wrap; }
 .tabs li { margin: 0; }
 .tabs a { display: inline-block; padding: .5rem .9rem; text-decoration: none; border-bottom: 3px solid transparent; }
