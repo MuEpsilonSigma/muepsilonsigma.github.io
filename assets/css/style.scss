@@ -11,10 +11,7 @@
 
 /* Reduce the space right under the black header */
 #main_content_wrap .inner {        /* Slate's content container */
-  padding-top: 8px;                /* was ~20px in the theme */
-}
-#project_title {
-  text-shadow: 0;
+  padding-top: 6px;                /* was ~20px in the theme */
 }
 
 /* Make the title look like text but clickable */
