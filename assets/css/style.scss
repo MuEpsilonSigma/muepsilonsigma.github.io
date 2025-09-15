@@ -24,18 +24,12 @@
   text-underline-offset: 2px;
 }
 
-/* Tabs: make text and active underline black */
-nav.tabs a {
-  color: #000;              /* tab text color */
-  text-decoration: none;    /* prevent global underline */
-}
-nav.tabs a:visited,
-nav.tabs a:hover,
-nav.tabs a:focus {
-  color: #000;              /* stay black on all states */
-  text-decoration: none;
-}
-nav.tabs li.active a {
-  border-bottom-color: #000; /* active underline matches text */
-  font-weight: 700;
-}
+/* base tabs look (neutral) */
+.tabs { margin: 0; border-bottom: 1px solid #ddd; }
+.tabs ul { list-style: none; margin: 0; padding: 0; display: flex; gap: .75rem; flex-wrap: wrap; }
+.tabs li { margin: 0; }
+.tabs a { display: inline-block; padding: .5rem .9rem; text-decoration: none; border-bottom: 3px solid transparent;color: #000; }
+
+/* highlight ONLY the active tab */
+.tabs li.active a { border-bottom-color: currentColor; font-weight: 600; }
+
