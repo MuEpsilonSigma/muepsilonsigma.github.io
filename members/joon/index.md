@@ -22,7 +22,7 @@ Joon is a PhD candidate in Mechanical Engineering at University of Illinois at U
 <div class="profile-social">
   <!-- Email -->
   <a class="icon" href="mailto:yjpark4@illinois.edu" aria-label="Email Joon">
-    <img src="../../photos/Email_logo.png" alt="Email">
+    <img src="../../photos/Mail_logo.png" alt="Email">
   </a>
 
   <!-- LinkedIn -->
@@ -43,7 +43,7 @@ Joon is a PhD candidate in Mechanical Engineering at University of Illinois at U
   display:flex;
   justify-content:center;        /* center horizontally */
   align-items:center;
-  gap:16px;
+  gap:20px;
   margin:10px 0 18px;
 }
 .profile-social .icon{
