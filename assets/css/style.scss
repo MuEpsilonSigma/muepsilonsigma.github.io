@@ -24,12 +24,33 @@
   text-underline-offset: 2px;
 }
 
-/* base tabs look (neutral) */
-.tabs { margin: 0; border-bottom: 1px solid #ddd; }
-.tabs ul { list-style: none; margin: 0; padding: 0; display: flex; gap: .75rem; flex-wrap: wrap; }
-.tabs li { margin: 0; }
-.tabs a { display: inline-block; padding: .5rem .9rem; text-decoration: none; border-bottom: 3px solid transparent;color: #000; }
+/* Tabs */
+nav.tabs { margin: 0; border-bottom: 1px solid #ddd; }
+nav.tabs ul { list-style: none; margin: 0; padding: 0; display: flex; gap: .75rem; flex-wrap: wrap; }
+nav.tabs li { margin: 0; }
+nav.tabs a {
+  display: inline-block;
+  padding: .5rem .9rem;
+  text-decoration: none;
+  border-bottom: 3px solid transparent; /* only active shows the bar */
+  color: #000;                          /* base (inactive) color */
+  transition: color .15s ease;
+}
 
-/* highlight ONLY the active tab */
-.tabs li.active a { border-bottom-color: blue; font-weight: 600; }
+/* Active tab: blue text + blue underline + bold */
+nav.tabs li.active a {
+  color: #0F79D0;              /* Slate’s link blue */
+  border-bottom-color: #0F79D0;
+  font-weight: 700;
+}
 
+/* Hover only for INACTIVE tabs: turn text blue, no underline */
+nav.tabs li:not(.active) a:hover,
+nav.tabs li:not(.active) a:focus {
+  color: #0F79D0;
+  text-decoration: none;
+}
+
+/* Optional: keep visited state consistent */
+nav.tabs a:visited { color: inherit; }
+nav.tabs li.active a:visited { color: #0F79D0; }
