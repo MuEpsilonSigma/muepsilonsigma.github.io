@@ -22,17 +22,17 @@ Joon is a PhD candidate in Mechanical Engineering at University of Illinois at U
 <div class="profile-social">
   <!-- Email -->
   <a class="icon" href="mailto:yjpark4@illinois.edu" aria-label="Email Joon">
-    <img src="../../photos/Email_logo.png" width="25" height="25" />
+    <img src="../../photos/Email_logo.png" width="40" height="40" />
   </a>
 
   <!-- LinkedIn -->
   <a class="icon" href="https://www.linkedin.com/in/joonpyj/" target="_blank" rel="me noopener" aria-label="LinkedIn">
-  <img src="../../photos/LinkedIn_logo.png" width="25" height="25" />
+  <img src="../../photos/LinkedIn_logo.png" width="47" height="40" />
   </a>
 
   <!-- Google Scholar -->
   <a class="icon" href="https://scholar.google.com/citations?hl=en&user=2mg2yMkAAAAJ" target="_blank" rel="me noopener" aria-label="Google Scholar">
-  <img src="../../photos/Google_Scholar_logo.svg" width="25" height="25" />
+  <svg src="../../photos/Google_Scholar_logo.svg" />
   </a>
 </div>
 
