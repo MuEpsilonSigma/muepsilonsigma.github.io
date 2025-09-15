@@ -5,8 +5,6 @@ permalink: /members/joon/
 tabs:
   - title: About
     url: /members/joon/
-  - title: Experience
-    url: /members/joon/experience/
   - title: Publications
     url: /members/joon/publications/
 ---
@@ -17,8 +15,8 @@ tabs:
   <img src="../../photos/Joon.jpg" alt="Joon" />
 </div>
 
-## Introduction
-Joon is a PhD candidate in Mechanical Engineering at University of Illinois at Urbana Champaign, advised by Prof. Sophie Wang. 
+## About
+Joon is a PhD candidate in Mechanical Science and Engineering at the University of Illinois Urbana-Champaign. His research focuses on developing novel methodologies to monitor and control energy systems, particularly in application to air conditioning & refrigeration cycles and fuel cell systems. His current project focuses on the development of a capacitive sensor array for measuring water condensate and frost sizes on a cold surface under condensation and frosting heat transfer.
 
 <!-- Social icons -->
 <div class="profile-social">
