@@ -22,35 +22,45 @@ Joon is a PhD candidate in Mechanical Engineering at University of Illinois at U
 <div class="profile-social">
   <!-- Email -->
   <a class="icon" href="mailto:yjpark4@illinois.edu" aria-label="Email Joon">
-    <img src="../../photos/Email_logo.png" width="40" height="40" />
+    <img src="../../photos/Email_logo.png" alt="Email">
   </a>
 
   <!-- LinkedIn -->
   <a class="icon" href="https://www.linkedin.com/in/joonpyj/" target="_blank" rel="me noopener" aria-label="LinkedIn">
-  <img src="../../photos/LinkedIn_logo.png" width="47" height="40" />
+    <img src="../../photos/LinkedIn_logo.png" alt="LinkedIn">
   </a>
 
   <!-- Google Scholar -->
   <a class="icon" href="https://scholar.google.com/citations?hl=en&user=2mg2yMkAAAAJ" target="_blank" rel="me noopener" aria-label="Google Scholar">
-  <svg src="../../photos/Google_Scholar_logo.svg" />
+    <img src="../../photos/Google_Scholar_logo.svg" alt="Google Scholar">
   </a>
 </div>
 
 <style>
-/* scoped to this page */
+/* scoped to this page only */
 .profile-social{
-  --icon-size: 36px;
-  display:flex; align-items:center; gap:14px;
-  margin:8px 0 18px;
+  --size: 44px;                  /* change once to resize all icons */
+  display:flex;
+  justify-content:center;        /* center horizontally */
+  align-items:center;
+  gap:16px;
+  margin:10px 0 18px;
 }
 .profile-social .icon{
-  width:var(--icon-size); height:var(--icon-size);
-  display:inline-flex; align-items:center; justify-content:center;
-  color:#111; text-decoration:none;
+  display:inline-flex;
+  width:var(--size);
+  height:var(--size);
 }
-.profile-social .icon svg{ width:100%; height:100%; fill:currentColor; }
-
-/* hover color to match Slate's link color */
-.profile-social .icon:hover{ color:#0F79D0; text-decoration:none; }
+.profile-social .icon img{
+  display:block;
+  width:100%;
+  height:100%;
+  object-fit:contain;
+  /* override Slate theme's IMG defaults */
+  padding:0; margin:0; border:0; box-shadow:none;
+}
+.profile-social .icon:hover{ opacity:.85; }
+@media (max-width:480px){
+  .profile-social{ --size: 36px; }
+}
 </style>
-
