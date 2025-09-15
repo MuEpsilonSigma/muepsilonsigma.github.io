@@ -20,11 +20,6 @@ Joon is a PhD candidate in Mechanical Engineering at University of Illinois at U
 
 <!-- Social icons -->
 <div class="profile-social">
-  <!-- Email -->
-  <a class="icon" href="mailto:yjpark4@illinois.edu" aria-label="Email Joon">
-    <img src="../../photos/Mail_logo.png" alt="Email">
-  </a>
-
   <!-- LinkedIn -->
   <a class="icon" href="https://www.linkedin.com/in/joonpyj/" target="_blank" rel="me noopener" aria-label="LinkedIn">
     <img src="../../photos/LinkedIn_logo.png" alt="LinkedIn">
@@ -33,6 +28,11 @@ Joon is a PhD candidate in Mechanical Engineering at University of Illinois at U
   <!-- Google Scholar -->
   <a class="icon" href="https://scholar.google.com/citations?hl=en&user=2mg2yMkAAAAJ" target="_blank" rel="me noopener" aria-label="Google Scholar">
     <img src="../../photos/Google_Scholar_logo.svg" alt="Google Scholar">
+  </a>
+
+  <!-- Email -->
+  <a class="icon" href="mailto:yjpark4@illinois.edu" aria-label="Email Joon">
+    <img src="../../photos/Mail_logo.png" alt="Email">
   </a>
 </div>
 
@@ -43,7 +43,7 @@ Joon is a PhD candidate in Mechanical Engineering at University of Illinois at U
   display:flex;
   justify-content:center;        /* center horizontally */
   align-items:center;
-  gap:20px;
+  gap:16px;
   margin:10px 0 18px;
 }
 .profile-social .icon{
