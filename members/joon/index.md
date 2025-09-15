@@ -39,7 +39,7 @@ Joon is a PhD candidate in Mechanical Engineering at University of Illinois at U
 <style>
 /* scoped to this page only */
 .profile-social{
-  --size: 44px;                  /* change once to resize all icons */
+  --size: 64px;                  /* change once to resize all icons */
   display:flex;
   justify-content:center;        /* center horizontally */
   align-items:center;
