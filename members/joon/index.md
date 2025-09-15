@@ -15,8 +15,15 @@ tabs:
   <img src="../../photos/Joon.jpg" alt="Joon" />
 </div>
 
-## About
-Joon is a PhD candidate in Mechanical Science and Engineering at the University of Illinois Urbana-Champaign. His research focuses on developing novel methodologies to monitor and control energy systems, particularly in application to air conditioning & refrigeration cycles and fuel cell systems. His current project focuses on the development of a capacitive sensor array for measuring water condensate and frost sizes on a cold surface under condensation and frosting heat transfer.
+## Biography
+Joon (he/him/his) is a Ph.D. candidate in Mechanical Engineering at the University of Illinois Urbana–Champaign, conducting research at the Air Conditioning & Refrigeration Center (ACRC). His current work focuses on condensation and frosting heat transfer, with a special emphasis on developing novel capacitive sensor arrays to measure local condensate and frost distributions on heat exchanger fins. He integrates experimental testing (wind tunnels and LabVIEW), advanced simulations (COMSOL Multiphysics), and custom hardware design (flexible PCB sensor arrays and embedded systems) to investigate coupled heat and mass transfer phenomena. Beyond sensor development, Joon also explores surface engineering strategies such as ice-phobic coatings to mitigate frost formation and improve energy efficiency in HVAC systems. His research bridges hands-on instrumentation, multiphysics modeling, and applied thermal sciences, aiming to provide both fundamental insights and practical solutions for next-generation energy systems.
+
+Before beginning his doctoral studies, Joon conducted research at the Multiphysics Energy Systems Laboratory at Yonsei University, where he focused on solid oxide fuel cell (SOFC) and solid oxide electrolysis cell (SOEC) systems. He developed graphical user interface–based simulation software using C# to design and analyze the process of SOFC/SOEC systems. His contributions led to several publications and conference presentations, where he presented novel system modeling approach, thermal design optimization, and control strategies of energy conversion systems. These experiences gave him a strong foundation in programming and system-level thinking, which now inform his Ph.D. work on real-time monitoring and control of frost formation in HVAC systems.
+
+## Education
+*  Ph.D. candidate in Mechanical Engineering, University of Illinois Urbana-Champaign, Expected May 2028
+*  M.S. in Mechanical Engineering, Yonsei University, Aug 2021
+*  B.S. in Energy & Environmental Science and Engineering, Mechanical Engineering (Double major), Yonsei University, Feb 2019
 
 <!-- Social icons -->
 <div class="profile-social">
