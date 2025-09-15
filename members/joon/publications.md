@@ -1,5 +1,5 @@
 ---
-title: Publications — Joon
+title: Publications - Joon
 layout: page_with_tabs
 permalink: /members/joon/publications/
 tabs:
