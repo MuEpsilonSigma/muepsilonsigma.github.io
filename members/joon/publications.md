@@ -5,8 +5,6 @@ permalink: /members/joon/publications/
 tabs:
   - title: About
     url: /members/joon/
-  - title: Experience
-    url: /members/joon/experience/
   - title: Publications
     url: /members/joon/publications/
 ---
