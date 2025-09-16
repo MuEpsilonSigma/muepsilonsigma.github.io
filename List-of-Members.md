@@ -29,7 +29,7 @@ layout: default
 >Luke is a PhD student in Mechanical Engineering at Stanford University, advised by Prof. Kenneth E. Goodson and Adjunct Prof. Mehdi Asheghi at the Nanoheat Lab. His research focuses on advanced thermal management solutions for next-generation electronic systems, covering nanoscale heat dissipation in ultra-thin films and 3D packaging as well as macroscale cooling strategies for end-user devices and data centers.
 
 
-#### [Young Joon Park (박영준)](./members/joon)
+#### [YoungJoon Park (박영준)](./members/joon)
 ![Joon.jpg](photos/Joon.jpg)
 
 >Young Joon (Joon, in short) is a PhD candidate in Mechanical Science and Engineering at the University of Illinois Urbana-Champaign. His research focuses on developing novel methodologies to monitor and control energy systems, particularly in application to air conditioning & refrigeration cycles and fuel cell systems. His current project focuses on the development of a capacitive sensor array for measuring water droplets and frost sizes under condensation and frosting heat transfer.
