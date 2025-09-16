@@ -9,7 +9,7 @@ tabs:
     url: /members/joon/publications/
 ---
 
-# Young Joon (Joon) Park
+# YoungJoon (Joon) Park
 
 <div style="text-align: center;">
   <img src="../../photos/Joon.jpg" alt="Joon" />
