@@ -32,7 +32,7 @@ layout: default
 #### [YoungJoon Park (박영준)](./members/joon)
 ![Joon.jpg](photos/Joon.jpg)
 
->Young Joon (Joon, in short) is a PhD candidate in Mechanical Science and Engineering at the University of Illinois Urbana-Champaign. His research focuses on developing novel methodologies to monitor and control energy systems, particularly in application to air conditioning & refrigeration cycles and fuel cell systems. His current project focuses on the development of a capacitive sensor array for measuring water droplets and frost sizes under condensation and frosting heat transfer.
+>YoungJoon (Joon, in short) is a PhD candidate in Mechanical Science and Engineering at the University of Illinois Urbana-Champaign. His research focuses on developing novel methodologies to monitor and control energy systems, particularly in application to air conditioning & refrigeration cycles and fuel cell systems. His current project focuses on the development of a capacitive sensor array for measuring water droplets and frost sizes under condensation and frosting heat transfer.
 
 
 #### Dongyoung Yoon (윤동영)
