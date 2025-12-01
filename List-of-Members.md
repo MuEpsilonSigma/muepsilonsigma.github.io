@@ -52,3 +52,8 @@ layout: default
 
 #### Janghyun Lim (임장현)
 
+
+#### Minuk Kim (김민욱)
+
+
+
