@@ -4,7 +4,7 @@ layout: default
 
 # 2024 Thanksgiving 2nd Annual Meeting
 ## Dates
-Nov. 28–30, 2024
+Nov 28–30, 2024
 
 ## Venue
 Washington, D.C.
