@@ -13,9 +13,10 @@ The ΜΕΣ community is a vibrant network of PhD students across the United Stat
 
 # Events
 ## Upcoming events
-*  [2025 Thanksgiving 3rd Annual Meeting](./3rd-Annual-Meeting)
+*  [2026 Thanksgiving 4th Annual Meeting](./4th-Annual-Meeting)
 
 ## Previous events
+*  [2025 Thanksgiving 3rd Annual Meeting](./3rd-Annual-Meeting)
 *  [2024 Thanksgiving 2nd Annual Meeting](./2nd-Annual-Meeting)
 *  [2023 Thanksgiving 1st Annual Meeting](./1st-Annual-Meeting)
 
