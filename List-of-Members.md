@@ -45,7 +45,7 @@ layout: default
 
 >Inseo is a PhD student in Materials Science and Engineering at the University of Illinois Urbana-Champaign. Her research focuses on the mechanical behavior of metallic materials in extreme environments and energy applications. She specializes in experimental characterization techniques for quantitative, statistical analysis of deformation processes, such as digital image correlation and electron microscopy. Using these techniques, she aims to investigate plasticity development driven by hydrogen embrittlement, ultimately to accelerate the design of hydrogen storage materials.
 
-#### Jiyong Harrison Lee (이지용)
+#### Jiyong Lee (이지용)
 ![Jiyong.jpg](photos/Jiyong.jpg)
 
 >Jiyong Lee is a PhD student in Chemical Engineering at the University of Texas at Austin. Under the guidance of Prof. Ilias Mitrai, Jiyong’s research focuses on developing a framework and algorithms of explainable optimization via artificial intelligence techniques such as explainable AI and graph neural networks. In this approach, he aims to understand and provide explainable solutions of the optimal decision-making process that arises in energy systems, supply chains, and chemical manufacturing.
