@@ -11,7 +11,7 @@ tabs:
     url: /members/joon/publications/
 ---
 
-## Publications
+## Academic Journals
 1.  J. Lee, K. Jeong, Y. Choi, **Y.J. Park**, J. Hong*. <a href="https://doi.org/10.1016/j.jpowsour.2025.238271">"Thermodynamic analysis of internal and external ammonia decomposition strategies for ammonia-fueled solid oxide fuel cell systems." Journal of Power Sources 658 (2025): 238271.</a>
 2.	**Y.J. Park***. <a href="https://www.dbpia.co.kr/Journal/articleDetail?nodeId=NODE11482396">"Military application strategy of ammonia-fueled fuel cell for power generation." Defense & Technology 534 (2023): 130–135.</a>
 3.	**Y.J. Park**, G. Min, J. Hong*. <a href="https://doi.org/10.1016/j.jpowsour.2023.232970">"Optimal method for the anode exhaust gas recycling of atmospheric solid oxide fuel cell-combined heat and power systems." Journal of Power Sources 567 (2023): 232970.</a>
