@@ -1,12 +1,12 @@
 ---
-title: Experience - Joon
+title: Projects - Joon
 layout: page_with_tabs
-permalink: /members/joon/experience/
+permalink: /members/joon/projects/
 tabs:
   - title: About
     url: /members/joon/
-  - title: Experience
-    url: /members/joon/experience/
+  - title: Projects
+    url: /members/joon/projects/
   - title: Publications
     url: /members/joon/publications/
 ---
