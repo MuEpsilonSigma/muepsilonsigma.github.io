@@ -5,6 +5,8 @@ permalink: /members/joon/
 tabs:
   - title: About
     url: /members/joon/
+  - title: Projects
+    url: /members/joon/projects/
   - title: Publications
     url: /members/joon/publications/
 ---
