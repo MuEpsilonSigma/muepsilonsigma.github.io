@@ -40,7 +40,11 @@ tabs:
 * Droplet size & phase transition sensing capabilites
 
 <div style="text-align: center;">
-  <img src="{{ '/members/joon/media/proposal_figure_2.png' | relative_url }}" alt="proposal_figure_2" />
+  <img
+    src="{{ '/members/joon/media/proposal_figure_2.png' | relative_url }}"
+    alt="proposal_figure_2"
+    style="display:block; width:100%; height:auto;"
+  />
 </div>
 
 ## Previous Projects
