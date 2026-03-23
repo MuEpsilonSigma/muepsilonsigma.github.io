@@ -20,7 +20,7 @@ Condensation frosting demonstration
 <style>
   .paired-video-grid {
     display: grid;
-    grid-template-columns: max-content max-content;
+    grid-template-columns: auto auto;
     justify-content: center;
     justify-items: center;
     gap: 1rem;
