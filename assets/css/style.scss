@@ -3,6 +3,13 @@
 
 @import "{{ site.theme }}";
 
+/* Remove Slate's default framed-image styling globally */
+img {
+  border: 0;
+  box-shadow: none;
+  padding: 0;
+}
+
 /* tighten the black header band */
 #header_wrap .inner {
   /* top right bottom left */

@@ -37,6 +37,12 @@ tabs:
   </video>
 </div>
 
+* Droplet size & phase transition sensing capabilites
+
+<div style="text-align: center;">
+  <img src="{{ '/members/joon/media/proposal_figure_2.png' | relative_url }}" alt="proposal_figure_2" />
+</div>
+
 ## Previous Projects
 
 
