@@ -62,7 +62,7 @@ tabs:
 
     .paired-video-grid video {
       height: auto;
-      width: clamp(0px, 68vw, 360px);
+      width: clamp(0px, 80vw, 360px);
     }
   }
 </style>
