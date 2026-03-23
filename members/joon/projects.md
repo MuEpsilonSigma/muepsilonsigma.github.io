@@ -28,17 +28,21 @@ Condensation frosting demonstration
 
   .paired-video-grid video {
     width: auto;
-    height: 320px;
+    height: 300px;
   }
 
   @media (max-width: 900px) {
     .paired-video-grid {
-      grid-template-columns: 1fr;
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-content: center;
+    gap: 0.5rem;
+    margin: 1rem 0 1rem;
     }
 
     .paired-video-grid video {
       height: auto;
-      width: 36vw;
+      width: 72vw;
     }
   }
 </style>
