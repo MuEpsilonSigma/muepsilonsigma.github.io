@@ -15,7 +15,7 @@ tabs:
 
 #### Capacitive sensor array for in-situ measurement of frost & condensate accumulation on cold surfaces
 
-Condensation frosting demonstration
+> Condensation frosting demonstration
 
 <style>
   .paired-video-grid {
@@ -39,7 +39,7 @@ Condensation frosting demonstration
 
     .paired-video-grid video {
       height: auto;
-      width: 60vw;
+      width: clamp(0px, 68vw, 360px);
     }
   }
 </style>
