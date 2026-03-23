@@ -13,7 +13,7 @@ tabs:
 
 ## Current Projects
 
-##### Capacitive sensor array for in-situ measurement of frost & condensate accumulation on cold surfaces
+#### Capacitive sensor array for in-situ measurement of frost & condensate accumulation on cold surfaces
 
 Condensation frosting demonstration
 
@@ -21,16 +21,16 @@ Condensation frosting demonstration
   .paired-video-grid {
     display: grid;
     grid-template-columns: repeat(2, minmax(0, 1fr));
+    justify-items: center;
     gap: 1rem;
     margin: 1rem 0 1.5rem;
   }
 
   .paired-video-grid video {
-    width: 100%;
+    width: auto;
     height: clamp(220px, 36vw, 460px);
-    object-fit: contain;
+    max-width: 100%;
     border-radius: 0;
-    background: #000;
   }
 
   @media (max-width: 900px) {
