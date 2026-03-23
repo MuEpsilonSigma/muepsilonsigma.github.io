@@ -15,7 +15,30 @@ tabs:
 
 #### Capacitive sensor array for in-situ measurement of frost & condensate accumulation on cold surfaces
 
-> Condensation frosting demonstration
+* Condensation frosting demonstration
+
+<div class="paired-video-grid">
+  <video id="condensation-video-reference" autoplay muted playsinline loop>
+    <source src="{{ '/members/joon/media/20260320_condensation_test_rec_synced_60x_trimmed.mp4' | relative_url }}" type="video/mp4">
+  </video>
+  <video id="condensation-video-target" autoplay muted playsinline loop>
+    <source src="{{ '/members/joon/media/20260320_condensation_test_synced_60x_trimmed.mp4' | relative_url }}" type="video/mp4">
+  </video>
+</div>
+
+* Random droplet deposition demonstration
+
+<div class="paired-video-grid">
+  <video id="droplets-video-reference" autoplay muted playsinline loop>
+    <source src="{{ '/members/joon/media/random_droplets_rec_4x_synced.mp4' | relative_url }}" type="video/mp4">
+  </video>
+  <video id="droplets-video-target" autoplay muted playsinline loop>
+    <source src="{{ '/members/joon/media/random_droplets_4x.mp4' | relative_url }}" type="video/mp4">
+  </video>
+</div>
+
+## Previous Projects
+
 
 <style>
   .paired-video-grid {
@@ -44,67 +67,61 @@ tabs:
   }
 </style>
 
-<div class="paired-video-grid">
-  <video id="condensation-video-reference" autoplay muted playsinline loop>
-    <source src="{{ '/members/joon/media/20260320_condensation_test_rec_synced_60x_trimmed.mp4' | relative_url }}" type="video/mp4">
-  </video>
-  <video id="condensation-video-target" autoplay muted playsinline loop>
-    <source src="{{ '/members/joon/media/20260320_condensation_test_synced_60x_trimmed.mp4' | relative_url }}" type="video/mp4">
-  </video>
-</div>
-
 <script>
   (function () {
-    const master = document.getElementById("condensation-video-reference");
-    const slave = document.getElementById("condensation-video-target");
-
-    if (!master || !slave) return;
-
     const DRIFT_TOLERANCE_SECONDS = 0.12;
 
-    const syncToMaster = () => {
-      if (!isFinite(master.currentTime)) return;
-      if (Math.abs(master.currentTime - slave.currentTime) > DRIFT_TOLERANCE_SECONDS) {
-        slave.currentTime = master.currentTime;
-      }
+    const setupSyncedPair = (masterId, slaveId) => {
+      const master = document.getElementById(masterId);
+      const slave = document.getElementById(slaveId);
+
+      if (!master || !slave) return;
+
+      const syncToMaster = () => {
+        if (!isFinite(master.currentTime)) return;
+        if (Math.abs(master.currentTime - slave.currentTime) > DRIFT_TOLERANCE_SECONDS) {
+          slave.currentTime = master.currentTime;
+        }
+      };
+
+      const tryAutoplay = async () => {
+        try {
+          await Promise.all([master.play(), slave.play()]);
+        } catch (e) {
+          // Autoplay may fail in restrictive browser settings.
+        }
+      };
+
+      master.addEventListener("play", () => {
+        syncToMaster();
+        slave.play().catch(() => {});
+      });
+      master.addEventListener("pause", () => slave.pause());
+      master.addEventListener("seeking", syncToMaster);
+      master.addEventListener("seeked", syncToMaster);
+      master.addEventListener("ratechange", () => {
+        slave.playbackRate = master.playbackRate;
+      });
+      master.addEventListener("volumechange", () => {
+        slave.muted = master.muted;
+        slave.volume = master.volume;
+      });
+      master.addEventListener("ended", () => {
+        slave.currentTime = 0;
+        slave.play().catch(() => {});
+      });
+
+      master.addEventListener("loadedmetadata", () => {
+        slave.currentTime = master.currentTime || 0;
+        tryAutoplay();
+      });
+
+      setInterval(() => {
+        if (!master.paused && !slave.paused) syncToMaster();
+      }, 250);
     };
 
-    const tryAutoplay = async () => {
-      try {
-        await Promise.all([master.play(), slave.play()]);
-      } catch (e) {
-        // Autoplay may fail in restrictive browser settings.
-      }
-    };
-
-    master.addEventListener("play", () => {
-      syncToMaster();
-      slave.play().catch(() => {});
-    });
-    master.addEventListener("pause", () => slave.pause());
-    master.addEventListener("seeking", syncToMaster);
-    master.addEventListener("seeked", syncToMaster);
-    master.addEventListener("ratechange", () => {
-      slave.playbackRate = master.playbackRate;
-    });
-    master.addEventListener("volumechange", () => {
-      slave.muted = master.muted;
-      slave.volume = master.volume;
-    });
-    master.addEventListener("ended", () => {
-      slave.currentTime = 0;
-      slave.play().catch(() => {});
-    });
-
-    master.addEventListener("loadedmetadata", () => {
-      slave.currentTime = master.currentTime || 0;
-      tryAutoplay();
-    });
-
-    setInterval(() => {
-      if (!master.paused && !slave.paused) syncToMaster();
-    }, 250);
+    setupSyncedPair("condensation-video-reference", "condensation-video-target");
+    setupSyncedPair("droplets-video-reference", "droplets-video-target");
   })();
 </script>
-
-## Previous Projects
