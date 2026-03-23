@@ -38,6 +38,7 @@ Condensation frosting demonstration
 
     .paired-video-grid video {
       height: auto;
+      width: 36vw;
     }
   }
 </style>
