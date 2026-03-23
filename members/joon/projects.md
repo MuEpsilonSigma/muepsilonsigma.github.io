@@ -22,15 +22,13 @@ Condensation frosting demonstration
     display: grid;
     grid-template-columns: auto auto;
     justify-content: center;
-    justify-items: center;
-    gap: 1rem;
-    margin: 1rem 0 1.5rem;
+    gap: 0.5rem;
+    margin: 1rem 0 1rem;
   }
 
   .paired-video-grid video {
     width: auto;
-    height: clamp(220px, 36vw, 460px);
-    max-width: 100%;
+    height: 320px;
   }
 
   @media (max-width: 900px) {
