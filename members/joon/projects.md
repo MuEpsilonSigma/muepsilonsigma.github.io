@@ -28,7 +28,7 @@ Condensation frosting demonstration
 
   .paired-video-grid video {
     width: auto;
-    height: clamp(220px, 36vw, 460px);
+    height: auto;
     max-width: 100%;
   }
 
