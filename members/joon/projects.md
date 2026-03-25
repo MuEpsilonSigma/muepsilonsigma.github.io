@@ -49,6 +49,25 @@ tabs:
 
 ## Previous Projects
 
+#### Design and simulation of solid oxide fuel cell systems using in-souse software
+
+<div style="text-align: center;">
+  <img
+    src="{{ '/members/joon/media/prev_proj_1.png' | relative_url }}"
+    alt="prev_proj_1"
+    style="display:block; width:100%; height:auto;"
+  />
+</div>
+
+#### Performance optimization & investigation of control strategy on combined heat and power system
+
+<div style="text-align: center;">
+  <img
+    src="{{ '/members/joon/media/prev_proj_2.png' | relative_url }}"
+    alt="prev_proj_2"
+    style="display:block; width:100%; height:auto;"
+  />
+</div>
 
 <style>
   .paired-video-grid {
