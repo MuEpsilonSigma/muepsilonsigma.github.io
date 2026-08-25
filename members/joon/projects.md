@@ -18,10 +18,10 @@ tabs:
 * Condensation frosting demonstration
 
 <div class="paired-video-grid">
-  <video id="condensation-video-reference" autoplay muted playsinline loop>
+  <video id="condensation-video-reference" preload="auto" muted playsinline>
     <source src="{{ '/members/joon/media/20260821_condensation_frosting_test_2_60x.mp4' | relative_url }}" type="video/mp4">
   </video>
-  <video id="condensation-video-target" autoplay muted playsinline loop>
+  <video id="condensation-video-target" preload="auto" muted playsinline>
     <source src="{{ '/members/joon/media/20260821_condensation_frosting_test_2_32kHz_60x.mp4' | relative_url }}" type="video/mp4">
   </video>
 </div>
@@ -29,10 +29,10 @@ tabs:
 * Random droplet deposition demonstration
 
 <div class="paired-video-grid">
-  <video id="droplets-video-reference" autoplay muted playsinline loop>
+  <video id="droplets-video-reference" preload="auto" muted playsinline>
     <source src="{{ '/members/joon/media/random_droplets_rec_4x_synced.mp4' | relative_url }}" type="video/mp4">
   </video>
-  <video id="droplets-video-target" autoplay muted playsinline loop>
+  <video id="droplets-video-target" preload="auto" muted playsinline>
     <source src="{{ '/members/joon/media/random_droplets_4x.mp4' | relative_url }}" type="video/mp4">
   </video>
 </div>
@@ -106,44 +106,57 @@ tabs:
 
       if (!master || !slave) return;
 
+      const videos = [master, slave];
+      let isRestarting = false;
+
+      const waitUntilPlayable = (video) => {
+        if (video.readyState >= HTMLMediaElement.HAVE_FUTURE_DATA) {
+          return Promise.resolve();
+        }
+
+        return new Promise((resolve) => {
+          video.addEventListener("canplay", resolve, { once: true });
+        });
+      };
+
+      const seekToStart = (video) => new Promise((resolve) => {
+        if (video.currentTime === 0) {
+          resolve();
+          return;
+        }
+
+        video.addEventListener("seeked", resolve, { once: true });
+        video.currentTime = 0;
+      });
+
       const syncToMaster = () => {
-        if (!isFinite(master.currentTime)) return;
+        if (isRestarting || !Number.isFinite(master.currentTime)) return;
         if (Math.abs(master.currentTime - slave.currentTime) > DRIFT_TOLERANCE_SECONDS) {
           slave.currentTime = master.currentTime;
         }
       };
 
-      const tryAutoplay = async () => {
+      const startTogether = async () => {
+        if (isRestarting) return;
+        isRestarting = true;
+
         try {
-          await Promise.all([master.play(), slave.play()]);
+          videos.forEach((video) => video.pause());
+          await Promise.all(videos.map(seekToStart));
+          await Promise.all(videos.map((video) => video.play()));
         } catch (e) {
           // Autoplay may fail in restrictive browser settings.
+        } finally {
+          isRestarting = false;
         }
       };
 
-      master.addEventListener("play", () => {
-        syncToMaster();
-        slave.play().catch(() => {});
-      });
-      master.addEventListener("pause", () => slave.pause());
-      master.addEventListener("seeking", syncToMaster);
-      master.addEventListener("seeked", syncToMaster);
-      master.addEventListener("ratechange", () => {
-        slave.playbackRate = master.playbackRate;
-      });
-      master.addEventListener("volumechange", () => {
-        slave.muted = master.muted;
-        slave.volume = master.volume;
-      });
-      master.addEventListener("ended", () => {
-        slave.currentTime = 0;
-        slave.play().catch(() => {});
+      videos.forEach((video) => {
+        video.loop = false;
+        video.addEventListener("ended", startTogether);
       });
 
-      master.addEventListener("loadedmetadata", () => {
-        slave.currentTime = master.currentTime || 0;
-        tryAutoplay();
-      });
+      Promise.all(videos.map(waitUntilPlayable)).then(startTogether);
 
       setInterval(() => {
         if (!master.paused && !slave.paused) syncToMaster();
