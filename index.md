@@ -11,6 +11,11 @@ The ΜΕΣ community is a vibrant network of PhD students across the United Stat
 # Members
 *  [List of Members](./List-of-Members)
 
+# News
+* [JeongA has published her work on direct air capture in Environmental Science and Technology. Congratulations!🎉](https://news.illinois.edu/new-electrochemical-device-targets-climate-change-by-sucking-co2-out-of-air/?utm_source=newsbureau&utm_medium=email)
+* [JeongA has won the Outstanding TA Award for the 2025–2026 academic year in the Department of Mechanical Engineering at UIUC! Congratulations!🎉](https://mechse.illinois.edu/news/83003)
+
+
 # Events
 ## Upcoming events
 *  [2026 Thanksgiving 4th Annual Meeting](./4th-Annual-Meeting)
