@@ -22,7 +22,7 @@ tabs:
     <source src="{{ '/members/joon/media/20260821_condensation_frosting_test_2_60x.mp4' | relative_url }}" type="video/mp4">
   </video>
   <video id="condensation-video-target" preload="auto" muted playsinline>
-    <source src="{{ '/members/joon/media/20260821_condensation_frosting_test_2_32kHz_60x.mp4' | relative_url }}" type="video/mp4">
+    <source src="{{ '/members/joon/media/20260821_condensation_frosting_test_2_normalized_32kHz_60x.mp4' | relative_url }}" type="video/mp4">
   </video>
 </div>
 
